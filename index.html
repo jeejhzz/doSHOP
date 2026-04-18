@@ -56,7 +56,7 @@
             const [points, setPoints] = useState(200000);
             
             const [missions, setMissions] = useState([
-                { id: 1, title: "오늘의 운동", reward: 3000, max: 1, count: 0, emoji: "🏃🏻‍♀️" },
+                { id: 1, title: "오늘의 운동", reward: 3000, max: 1, count: 0, emoji: "🏋️‍♀️" },
                 { id: 2, title: "오늘의 독서", reward: 3000, max: 1, count: 0, emoji: "📚" },
                 { id: 3, title: "준희에게 뽀뽀하기", reward: 1000, max: 10, count: 0, emoji: "💋" },
                 { id: 4, title: "준희에게 칭찬하기", reward: 2000, max: 2, count: 0, emoji: "👍" },
@@ -77,66 +77,12 @@
             };
 
             const gifts = [
-                { 
-                    id: 1, 
-                    name: "젠틀몬스터 주드", 
-                    link: "https://smartstore.naver.com/glasscode3927/products/11432795000", 
-                    pros: "착용하는 순간 연예인 아우라 뿜뿜. 얼굴이 작아 보이는 마법!", 
-                    cons: "너무 멋있어서 거울 보느라 약속 시간에 늦을 수 있음.", 
-                    emoji: "😎",
-                    youtubeId: "1Gq6mTI8SlU", 
-                    songName: "Hey Jude - The Beatles"
-                },
-                { 
-                    id: 2, 
-                    name: "애플 매직트랙패드", 
-                    link: "https://www.coupang.com/vp/products/8442302501", 
-                    pros: "손가락 끝에서 펼쳐지는 삶의 질 수직 상승. 데스크테리어의 완성.", 
-                    cons: "한 번 쓰면 일반 마우스는 답답해서 못 쓰는 '불치병'에 걸림.", 
-                    emoji: "🖱️",
-                    youtubeId: "Q5HKuivlwEo", 
-                    songName: "Magic - 시크릿"
-                },
-                { 
-                    id: 3, 
-                    name: "메디큐브 부스터브이롤러", 
-                    link: "https://themedicube.co.kr/product/detail.html?product_no=2619", 
-                    pros: "내일 아침이면 도연이 피부가 탕후루처럼 반짝반짝.", 
-                    cons: "너무 열심히 문지르면 턱선이 너무 날카로워져서 위험할 수 있음.", 
-                    emoji: "✨",
-                    youtubeId: "y7JPgbLfpfA", 
-                    songName: "I AM - IVE"
-                },
-                { 
-                    id: 4, 
-                    name: "나이키 페가수스42", 
-                    link: "https://www.nike.com/kr/t/pegasus-42-womens-road-running-shoes-wsTF7yIV/IB1881-500", 
-                    pros: "구름 위를 걷는 기분. 도연이가 어디든 가뿐하게 날아갈 수 있음.", 
-                    cons: "너무 편해서 집 안에서도 신고 있고 싶어질지도 모름.", 
-                    emoji: "🏃🏻‍♀️",
-                    youtubeId: "3tiLDChrokA", 
-                    songName: "뛰어! - BLACKPINK"
-                },
-                { 
-                    id: 5, 
-                    name: "하만카돈 루나", 
-                    link: "https://www.ssg.com/item/itemView.ssg?itemId=1000568303462", 
-                    pros: "귀 호강 종결자. 디자인까지 예뻐서 인테리어 지수 급상승.", 
-                    cons: "음질이 너무 좋아서 집이 순식간에 콘서트홀로 변함 (이웃 주의).", 
-                    emoji: "🔊",
-                    youtubeId: "l7gyxXnqHmI", 
-                    songName: "Moon River - Audrey Hepburn"
-                },
-                { 
-                    id: 6, 
-                    name: "메모 일하도멜", 
-                    link: "https://www.coupang.com/vp/products/7490612959", 
-                    pros: "지나가면 10명 중 9명이 향수 뭐냐고 물어볼 매혹적인 향기.", 
-                    cons: "벌들이 도연이를 꽃인 줄 알고 따라올 수 있으니 주의 요망.", 
-                    emoji: "🌸",
-                    youtubeId: "qKXMZPH6k18", 
-                    songName: "샴푸향이 느껴진거야 - 장범준"
-                }
+                { id: 1, name: "젠틀몬스터 주드", link: "https://smartstore.naver.com/glasscode3927/products/11432795000", pros: "착용하는 순간 연예인 아우라 뿜뿜. 얼굴이 작아 보이는 마법!", cons: "너무 멋있어서 거울 보느라 약속 시간에 늦을 수 있음.", emoji: "😎", youtubeId: "mlbrGabifsE", songName: "Hey Jude - The Beatles" },
+                { id: 2, name: "애플 매직트랙패드", link: "https://www.coupang.com/vp/products/8442302501", pros: "손가락 끝에서 펼쳐지는 삶의 질 수직 상승. 데스크테리어의 완성.", cons: "한 번 쓰면 일반 마우스는 답답해서 못 쓰는 '불치병'에 걸림.", emoji: "🖱️", youtubeId: "h9utY7jHVro", songName: "Magic - 시크릿" },
+                { id: 3, name: "메디큐브 부스터브이롤러", link: "https://themedicube.co.kr/product/detail.html?product_no=2619", pros: "내일 아침이면 도연이 피부가 탕후루처럼 반짝반짝.", cons: "너무 열심히 문지르면 턱선이 너무 날카로워져서 위험할 수 있음.", emoji: "✨", youtubeId: "YvFocURL7S4", songName: "I AM - IVE" },
+                { id: 4, name: "나이키 페가수스42", link: "https://www.nike.com/kr/t/pegasus-42-womens-road-running-shoes-wsTF7yIV/IB1881-500", pros: "구름 위를 걷는 기분. 도연이가 어디든 가뿐하게 날아갈 수 있음.", cons: "너무 편해서 집 안에서도 신고 있고 싶어질지도 모름.", emoji: "🏃🏻‍♀️", youtubeId: "C7D70HFOEwg", songName: "뛰어! - BLACKPINK" },
+                { id: 5, name: "하만카돈 루나", link: "https://www.ssg.com/item/itemView.ssg?itemId=1000568303462", pros: "귀 호강 종결자. 디자인까지 예뻐서 인테리어 지수 급상승.", cons: "음질이 너무 좋아서 집이 순식간에 콘서트홀로 변함 (이웃 주의).", emoji: "🔊", youtubeId: "5iqhMAxPSqM", songName: "Moon River - Audrey Hepburn" },
+                { id: 6, name: "메모 일하도멜", link: "https://www.coupang.com/vp/products/7490612959", pros: "지나가면 10명 중 9명이 향수 뭐냐고 물어볼 매혹적인 향기.", cons: "벌들이 도연이를 꽃인 줄 알고 따라올 수 있으니 주의 요망.", emoji: "🌸", youtubeId: "b1aguvbWrW0", songName: "샴푸향이 느껴진거야 - 장범준" }
             ];
 
             const containerRef = useRef(null);
@@ -164,13 +110,25 @@
 
             return (
                 <div className="min-h-screen pb-20 overflow-x-hidden">
-                    {/* Header */}
-                    <header className="pt-12 pb-8 text-center bg-white shadow-sm mb-8 rounded-b-[3rem]">
+                    {/* Header with integrated Points */}
+                    <header className="relative pt-12 pb-8 text-center bg-white shadow-sm mb-8 rounded-b-[3rem]">
                         <h1 className="text-3xl md:text-4xl font-bold text-pink-500 mb-2 flex items-center justify-center gap-2">
                             <Icon name="Gift" className="w-8 h-8 text-pink-500" />
                             Gift Shop for DoDo
                         </h1>
                         <p className="text-gray-500 italic">2026.04.30 Happy Birthday Doyeon!</p>
+                        
+                        {/* Integrated Points Module */}
+                        <div className="absolute top-4 right-4 md:top-6 md:right-10 bg-gradient-to-br from-pink-500 to-rose-400 rounded-2xl px-4 py-2 shadow-md text-white border border-white/20">
+                            <div className="flex items-center gap-2 mb-0.5">
+                                <Icon name="Trophy" className="w-3.5 h-3.5" />
+                                <span className="text-[10px] md:text-xs font-bold uppercase tracking-wider opacity-90 tracking-tighter">DoDo Point</span>
+                            </div>
+                            <div className="flex items-baseline gap-1">
+                                <span className="text-xl md:text-2xl font-bold point-glow">{points.toLocaleString()}</span>
+                                <span className="text-[10px] md:text-xs font-medium opacity-80 uppercase">P</span>
+                            </div>
+                        </div>
                     </header>
 
                     <main className="max-w-4xl mx-auto px-6">
@@ -202,25 +160,6 @@
                                         </div>
                                     </div>
                                 )}
-                            </div>
-                        </section>
-
-                        {/* Point Wallet Section */}
-                        <section className="mb-12">
-                            <div className="bg-gradient-to-r from-pink-500 to-rose-400 rounded-2xl p-4 md:p-5 shadow-lg text-white max-w-2xl mx-auto">
-                                <div className="flex justify-between items-center mb-2">
-                                    <h2 className="text-sm md:text-base font-bold flex items-center gap-2">
-                                        <Icon name="Trophy" className="w-4 h-4" />
-                                        도연이 전용 포인트
-                                    </h2>
-                                    <Icon name="Star" className="w-5 h-5 animate-pulse" />
-                                </div>
-                                <div className="text-center py-2">
-                                    <p className="text-xs opacity-80 mb-1">현재 사용 가능한 포인트</p>
-                                    <p className="text-3xl md:text-4xl font-bold point-glow">
-                                        {points.toLocaleString()} <span className="text-xl md:text-2xl font-normal opacity-90 ml-1">P</span>
-                                    </p>
-                                </div>
                             </div>
                         </section>
 
@@ -265,31 +204,18 @@
                                     골라~ 골라! 골라~ 골라!
                                 </h2>
                                 <div className="flex gap-2">
-                                    <button 
-                                        onClick={() => scroll('left')}
-                                        className="p-2 bg-white rounded-full shadow-md hover:bg-pink-50 transition-colors"
-                                    >
+                                    <button onClick={() => scroll('left')} className="p-2 bg-white rounded-full shadow-md hover:bg-pink-50 transition-colors">
                                         <Icon name="ChevronLeft" className="w-5 h-5 text-gray-600" />
                                     </button>
-                                    <button 
-                                        onClick={() => scroll('right')}
-                                        className="p-2 bg-white rounded-full shadow-md hover:bg-pink-50 transition-colors"
-                                    >
+                                    <button onClick={() => scroll('right')} className="p-2 bg-white rounded-full shadow-md hover:bg-pink-50 transition-colors">
                                         <Icon name="ChevronRight" className="w-5 h-5 text-gray-600" />
                                     </button>
                                 </div>
                             </div>
                             
-                            <div 
-                                ref={containerRef}
-                                className="flex overflow-x-auto gap-6 pb-6 no-scrollbar snap-x scroll-smooth"
-                            >
+                            <div ref={containerRef} className="flex overflow-x-auto gap-6 pb-6 no-scrollbar snap-x scroll-smooth">
                                 {gifts.map((gift) => (
-                                    <div 
-                                        key={gift.id}
-                                        onClick={() => setSelectedGift(gift)}
-                                        className="min-w-[280px] bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transition-all cursor-pointer snap-center border border-pink-50 group relative"
-                                    >
+                                    <div key={gift.id} onClick={() => setSelectedGift(gift)} className="min-w-[280px] bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transition-all cursor-pointer snap-center border border-pink-50 group relative">
                                         <div className="text-5xl mb-4 text-center group-hover:scale-110 transition-transform">{gift.emoji}</div>
                                         <h3 className="text-lg font-bold mb-4 text-center text-gray-700">{gift.name}</h3>
                                         <div className="space-y-2">
@@ -319,10 +245,7 @@
                     {selectedGift && (
                         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-6">
                             <div className="bg-white rounded-[2rem] max-w-sm w-full p-8 relative animate-in fade-in zoom-in duration-300">
-                                <button 
-                                    onClick={() => setSelectedGift(null)}
-                                    className="absolute top-4 right-4 p-2 hover:bg-gray-100 rounded-full"
-                                >
+                                <button onClick={() => setSelectedGift(null)} className="absolute top-4 right-4 p-2 hover:bg-gray-100 rounded-full transition-colors">
                                     <Icon name="X" className="w-6 h-6 text-gray-400" />
                                 </button>
                                 
@@ -334,11 +257,10 @@
                                             <Icon name="Music" className="w-3 h-3" />
                                             {selectedGift.songName}
                                         </div>
-                                        <p className="text-[10px] text-gray-400">음악이 안 나오면 상세보기를 눌러보세요!</p>
+                                        <p className="text-[10px] text-gray-400 font-medium">음악이 안 나오면 상세보기를 눌러보세요!</p>
                                     </div>
                                 </div>
 
-                                {/* BGM Player - Updated YouTube IDs */}
                                 <div className="hidden">
                                     <iframe 
                                         width="0" 
@@ -360,18 +282,16 @@
                                     </div>
                                 </div>
 
-                                <div className="flex flex-col gap-2">
-                                    <a 
-                                        href={selectedGift.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="block w-full bg-pink-500 text-white text-center py-4 rounded-2xl font-bold shadow-lg hover:bg-pink-600 flex items-center justify-center gap-2"
-                                    >
-                                        상품 페이지로 이동 <Icon name="ExternalLink" className="w-5 h-5" />
-                                    </a>
-                                </div>
+                                <a 
+                                    href={selectedGift.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block w-full bg-pink-500 text-white text-center py-4 rounded-2xl font-bold shadow-lg hover:bg-pink-600 flex items-center justify-center gap-2 transition-all active:scale-95"
+                                >
+                                    상품 페이지로 이동 <Icon name="ExternalLink" className="w-5 h-5" />
+                                </a>
                                 <p className="text-center text-[10px] text-gray-300 mt-4 italic">
-                                    * 창을 닫으면 음악이 멈춥니다. 상세페이지 이동 시 음악이 나올 수도 있어요!
+                                    * 창을 닫으면 음악이 멈춥니다.
                                 </p>
                             </div>
                         </div>
